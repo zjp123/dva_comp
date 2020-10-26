@@ -31,15 +31,16 @@ export const routeConfig = [
       {
         path: '/',
         exact:true,
-        // component: Shangye,
-        component: Loadable({
-          loader:()=> import('../index'),
-          loading:LoadingComponent
-        }),
+        component: Shangye,
+        // component: Loadable({
+        //   loader:()=> import('../shangye/shangye'),
+        //   loading:LoadingComponent
+        // }),
       },
       {
-        path: '/*',
+        // exact:true,
         // component: NotFound,
+        path: '/*',
         component: Loadable({
           loader:()=> import('../../../components/Notfound/notfound'),
           loading:LoadingComponent

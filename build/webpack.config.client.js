@@ -68,11 +68,12 @@ if (isDev) {
                     errors: true // 错误显示到网页上
                 },
                 headers: { 'Access-Control-Allow-Origin': '*' },
-                // publicPath: '/publick/',
+                // publicPath: '/public/',
                 historyApiFallback: {
 
                     index: '/public/index.html' // 这个配置太重要了 如果不加上它，如果设置了output.public，启动服务后无法访问
                 },
+                // inline:true,
                 // historyApiFallback: {
                 //     // 使用正则匹配命中路由
                 //     rewrites: [

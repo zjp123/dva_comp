@@ -37,10 +37,10 @@ export const routeConfig = [
       }
     ],
   },
-  {
-    component: NotFound,
+  // {
+  //   component: NotFound,
 
-  }
+  // }
   
 ];
 
