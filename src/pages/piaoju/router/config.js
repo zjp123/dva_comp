@@ -38,6 +38,15 @@ export const routeConfig = [
         // }),
       },
       {
+        path: '/yinhang',
+        exact:true,
+        component: Yinhang,
+        // component: Loadable({
+        //   loader:()=> import('../shangye/shangye'),
+        //   loading:LoadingComponent
+        // }),
+      },
+      {
         // exact:true,
         // component: NotFound,
         path: '/*',
